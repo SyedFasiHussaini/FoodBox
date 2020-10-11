@@ -1,0 +1,12 @@
+<div class="container">
+    <h4><a routerLink="/loginsuccess" class="nav-link">Back</a></h4>
+    <h3>Enter below Food Items to add to the DB</h3>
+    <!-- <input type="text" class="form-control" placeholder="Enter Product ID" [(ngModel)]='shoes.productId'> -->
+    <input type="text" class="form-control" placeholder="Enter Food Name" [(ngModel)]='food.foodName'>
+    <input type="text" class="form-control" placeholder="Give Food description" [(ngModel)]='food.description'>
+    <!-- <input type="text" class="form-control" placeholder="Enter Food Quantity" [(ngModel)]='food.qty'> -->
+    <input type="text" class="form-control" placeholder="Enter Food Availability" [(ngModel)]='food.availability'>
+    <input type="text" class="form-control" placeholder="Enter Food Price" [(ngModel)]='food.price'>
+    <input type="url" class="form-control" placeholder="Enter Food Image" [(ngModel)]='food.avatar'>
+    <button class="btn btn-primary" type="button" (click)='addFood()'>Add Food items</button>
+</div>

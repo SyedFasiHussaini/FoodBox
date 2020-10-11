@@ -1,0 +1,6 @@
+<div class="container">
+    <h4><a routerLink="/loginsuccess" class="nav-link">Back</a></h4>
+    <h3>Enter Food ID to delete it from the DB</h3>
+<input type="text" class="form-control" placeholder="Enter Food ID" [(ngModel)]='food.Id'>
+<button class="btn btn-primary" type="button" (click)='deleteFood()'>Delete Food Item</button>
+</div>
